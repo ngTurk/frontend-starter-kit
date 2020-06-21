@@ -1,0 +1,19 @@
+{
+  "name": "bookmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=9000",
+    "build": "node-sass assets/sass -o assets/css --output-style compressed",
+    "watch": "node-sass --watch assets/sass -o assets/css --output-style compressed",
+    "dev": "concurrently \"npm run build\" \"npm run watch\" \"npm run t3res\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.14.1"
+  }
+}
