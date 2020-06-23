@@ -7,7 +7,7 @@
     "start": "live-server --port=9000",
     "build": "node-sass assets/sass -o assets/css --output-style compressed",
     "watch": "node-sass --watch assets/sass -o assets/css --output-style compressed",
-    "dev": "concurrently \"npm run build\" \"npm run watch\" \"npm run t3res\""
+    "dev": "concurrently \"npm run build\" \"npm run watch\" \"npm run start\""
   },
   "author": "",
   "license": "ISC",
