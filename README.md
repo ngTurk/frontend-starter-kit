@@ -1,4 +1,3 @@
-
 # frontend-starter-kit
 
 Frontend starter kit with live-server &amp; sass compiler
